@@ -27,13 +27,6 @@ public class ChooseAHat {
 			size = newHat.size;
 			System.out.println("Ok you will get the default hat.");
 		}
-		
-		
-		
-		System.out.println("Your hat is size " + size + " and color " + color);
-		
+		System.out.println("Your hat is size " + size + " and color " + color);	
 	}
-	
-	
-
 }
