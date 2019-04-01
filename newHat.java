@@ -21,27 +21,27 @@ public class newHat {
 		for (int i = 0; i < colors.length; i++) { //output color choices
 			System.out.println((i+1) + ". " + colors[i]);
 		}
+		//prompt user for color
 		System.out.println("Enter the color you want: ");
 		decisionColor = input.nextInt();
 		color = colors[decisionColor - 1];
 	}
-	
+	//get() method for color
 	public static String getColor() {
 		return color;
 	}
+	//get() method for size
 	public static double getSize() {
 		return size;
 	}
-	
+	//default constructor if size and color are not specified
 	newHat() {
 		size = 5;
 		color = colors[6];
 	}
-	
+	//constructor if size and color are specified
 	newHat(double newSize,String newColor) {
 		size = newSize;
 		color = newColor;
-	}
-	
-	
+	}	
 }
